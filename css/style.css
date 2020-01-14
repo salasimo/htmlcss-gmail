@@ -1,0 +1,115 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1d1d1d;
+    background-image: url("../img/wood-bg.png");
+    background-repeat: repeat;
+    max-width: 1600px;
+    min-width: 650px;
+    padding: 0 50px;
+    font-family: 'Nunito Sans', sans-serif;
+    margin: auto;
+}
+
+header {
+    height: 300px;
+}
+
+.linea-header {
+    height: 50%;
+    border-bottom: 2px solid #1d1d1d;
+}
+
+#logo {
+    height: 150px;
+    width: auto;
+}
+
+.logo-div {
+    height: 150px;
+    color: #1d1d1d;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.logo-div h1 {
+    font-size: 70px;
+    margin-left: 20px;
+}
+
+.ricerca {
+    margin-top: 15px;
+    border: 1
+}
+
+.ricerca input {
+    border: none;
+    height: 20px;
+    border-radius: 20px;
+    border: 1px solid darkgrey;
+}
+
+
+.notifica {
+    margin-top: 50px;
+}
+
+.notifica p {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.notifica p>span {
+    background-color: darkorange;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.mail {
+    padding: 5px 0;
+    background: rgba(170, 170, 170, 0.8);
+    margin-bottom: 3px;
+}
+
+main {
+    margin-top: 30px;
+}
+
+main h2, main p {
+    margin: 0 10px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+.spunta {
+    margin-left: 5px;
+}
+
+.mail-1 p, .mail-4 p, .mail-1 h2, .mail-4 h2 {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.mail-1, .mail-4 {
+    background-color: #ff8500;
+}
+
+footer {
+    margin-top: 30px;
+    padding-top: 30px;
+    text-align: center;
+    border-top: 2px solid black;
+}
